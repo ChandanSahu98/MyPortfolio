@@ -5,7 +5,7 @@ import animation from "../../heart.json";
 import darkanimation from "../../heartBlack.json";
 import { ThemeContext } from "../../context";
 
-const Thanks = ({ setShowModal }) => {
+const Thanks = ({ setShowModal, form }) => {
   const theme = useContext(ThemeContext);
   const { darkmode } = theme.state;
   return (
@@ -32,7 +32,10 @@ const Thanks = ({ setShowModal }) => {
           <p>Your message has won my affection.</p>
           <button
             className="modal-close-btn"
-            onClick={() => setShowModal(false)}
+            onClick={() => {
+              form.current.reset();
+              setShowModal(false);
+            }}
           >
             X
           </button>

@@ -43,11 +43,11 @@ const Contact = () => {
           <div className="contact-info">
             <div className="contact-info-item">
               <img src={Phone} alt="" className="contact-info-img" /> +91
-              9876543218
+              7982893132
             </div>
             <div className="contact-info-item">
               <img src={Email} alt="" className="contact-info-img" />{" "}
-              csahu@gmail.com
+              gchansahu@gmail.com
             </div>
             <div className="contact-info-item">
               <img src={Address} alt="" className="contact-info-img" /> New
@@ -101,7 +101,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      {showModal && <Thanks setShowModal={setShowModal} />}
+      {showModal && <Thanks form={form} setShowModal={setShowModal} />}
     </div>
   );
 };
