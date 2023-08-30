@@ -1,0 +1,44 @@
+.product {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid rgb(243, 242, 242);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+
+.product-browser {
+  height: 20px;
+  position: sticky;
+  background-color: rgb(243, 242, 242);
+  display: flex;
+  align-items: center;
+  z-index: 2;
+}
+
+.product-circle {
+  height: 10px;
+  width: 10px;
+  background-color: white;
+  border-radius: 50%;
+  margin: 3px;
+}
+
+.product-img {
+  width: 100%;
+  transition: all 6s ease;
+}
+
+.product:hover .product-img {
+  transform: translateY(-45%);
+}
+@media screen and (max-width: 480px) {
+  .product {
+    width: 40%;
+    height: 20vh;
+  }
+
+  .product:hover .product-img {
+    transform: translateY(-35%);
+  }
+}
