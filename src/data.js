@@ -7,9 +7,9 @@ export const products = [
   },
   {
     id: 2,
-    img: "/images/github.png",
-    imgb: "/images/gitblack.png",
-    link: "https://github.com/Chandansahu98",
+    img: "/images/nike.png",
+    imgb: "/images/nike.png",
+    link: "https://nike-store-app-omega.vercel.app/",
   },
   {
     id: 3,
