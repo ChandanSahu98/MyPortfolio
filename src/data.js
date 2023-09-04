@@ -2,7 +2,7 @@ export const products = [
   {
     id: 1,
     img: "/images/github.png",
-    imgb: "/images/gitblack.png",
+    imgb: "/images/github.png",
     link: "https://github.com/Chandansahu98",
   },
   {
@@ -13,9 +13,9 @@ export const products = [
   },
   {
     id: 3,
-    img: "/images/github.png",
-    imgb: "/images/gitblack.png",
-    link: "https://github.com/Chandansahu98",
+    img: "/images/aizummarizer.png",
+    imgb: "/images/aisummarizer.png",
+    link: "https://ai-summarizer-olive.vercel.app/",
   },
   {
     id: 4,
